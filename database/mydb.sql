@@ -9,26 +9,27 @@ DROP TABLE IF EXISTS `Baby-Animal`;
 -- creating the table 'baby animal'
 
 CREATE TABLE IF NOT EXISTS `Baby-Animal`(
-     `Id`                INT           UNSIGNED         NOT NULL AUTO_INCREMENT
+     `Id`                INT                            NOT NULL AUTO_INCREMENT PRIMARY KEY
     ,`Name`           VARCHAR(25)                       NOT NULL UNIQUE
-    ,'Description'    VARCHAR(250)                          NULL
+    ,`Description`    VARCHAR(250)                          NULL
     ,`IsActive`          BIT(1)                         NOT NULL DEFAULT 1
     ,`NOTE`           VARCHAR(250)                          NULL
     ,`DateSet`        DATETIME(6)                       NOT NULL DEFAULT (SYSDATE(6))
     ,`DateChanged`    DATETIME(6)                       NOT NULL DEFAULT (SYSDATE(6))
-)
+);
 
 -- drop the table adult Animal if exists
+DROP TABLE IF EXISTS `Adult-Animal`;
 
 CREATE TABLE IF NOT EXISTS `Adult-Animal`(
-     `Id`                INT           UNSIGNED         NOT NULL AUTO_INCREMENT
+     `Id`                INT                            NOT NULL AUTO_INCREMENT PRIMARY KEY
     ,`Name`           VARCHAR(25)                       NOT NULL UNIQUE
-    ,'Description'    VARCHAR(250)                          NULL
+    ,`Description`    VARCHAR(250)                          NULL
     ,`IsActive`          BIT(1)                         NOT NULL DEFAULT 1
     ,`NOTE`           VARCHAR(250)                          NULL
     ,`DateSet`        DATETIME(6)                       NOT NULL DEFAULT (SYSDATE(6))
     ,`DateChanged`    DATETIME(6)                       NOT NULL DEFAULT (SYSDATE(6))
-)
+);
 
 -- INSERT THE DATA FOR THE TABLE BABY ANIMAL
 INSERT INTO `Baby-Animal`(Id , Name , Description , IsActive , NOTE )
