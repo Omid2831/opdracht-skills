@@ -15,9 +15,7 @@
     @stack('styles')
 </head>
 
-<body class="bg-white">
-    <!-- Header -->
-    @include('partials.header')
+<body class="bg-[url(/assets/backside.jpg)] ">
 
 
     <!-- Main Content -->
