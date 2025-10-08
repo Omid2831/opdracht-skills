@@ -12,6 +12,8 @@ class AnimalModel extends Model
         
        $query = DB::select('CALL sp_getAllBabyanimal()');
 
+    //    dd($query);
+
        return $query;
     }
 }

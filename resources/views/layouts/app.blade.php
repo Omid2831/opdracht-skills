@@ -15,7 +15,7 @@
     @stack('styles')
 </head>
 
-<body class="bg-gray-900">
+<body class="bg-white">
     <!-- Header -->
     @include('partials.header')
 

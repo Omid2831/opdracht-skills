@@ -19,14 +19,20 @@ class AnimalController extends Controller
     {
        $animal = animalModel::getAllAnimals();
 
-       $data = [
+    //    dd($animal);
+    //    $data = [
+    //     't' => 'Website data are going to be here ',
+    //     'Messages' => null,
+    //     'animal' => $animal
+
+    //    ];
+
+       return view('homepage', [
         't' => 'Website data are going to be here ',
         'Messages' => null,
         'animal' => $animal
 
-       ];
-
-       return view('homepage', $data);
+       ]);
     }
 
     /**
