@@ -30,7 +30,6 @@ CREATE TABLE IF NOT EXISTS `Adult-Animal`(
     ,`DateChanged`    DATETIME(6)                       NOT NULL DEFAULT (SYSDATE(6))
 )
 
-
 -- INSERT THE DATA FOR THE TABLE BABY ANIMAL
 INSERT INTO `Baby-Animal`(Id , Name , Description , IsActive , NOTE )
 VALUES
