@@ -34,26 +34,26 @@ CREATE TABLE IF NOT EXISTS `Adult-Animal`(
 -- INSERT THE DATA FOR THE TABLE BABY ANIMAL
 INSERT INTO `Baby-Animal`(Id , Name , Description , IsActive , NOTE )
 VALUES
-(1 , 'hatchling' , NULL , b'1', NULL),
-(2 , 'pup' , NULL , b'1', NULL),
-(3 , 'fawn' , NULL , b'1', NULL),
-(4 , 'fingerling' , NULL , b'1', NULL),
-(5 , 'gosling' , NULL , b'1', NULL),
-(6 , 'joey' , NULL , b'1', NULL),
-(7 , 'infant' , NULL , b'1', NULL),
-(8 , 'Puppy' , NULL , b'1', NULL),
-(9 , 'Foal' , NULL , b'1', NULL);
+(1 , 'cat_b' , NULL , b'1', 'cat_baby'),
+(2 , 'cow_b' , NULL , b'1', 'cow_baby'),
+(3 , 'dog_b' , NULL , b'1', 'dog_baby'),
+(4 , 'duck_b' , NULL , b'1', 'duck_baby'),
+(5 , 'elephent_b' , NULL , b'1', 'elephent_baby'),
+(6 , 'goat_b' , NULL , b'1', 'goat_baby'),
+(7 , 'horse_b' , NULL , b'1', 'horse_baby'),
+(8 , 'pig_b' , NULL , b'1','pig_baby'),
+(9 , 'seal_b' , NULL , b'1', 'seal_baby');
 
 
 -- INSERT THE DATA FOR THE TABLE BABY ANIMAL
 INSERT INTO `Adult-Animal`(Id , Name , Description , IsActive , NOTE )
 VALUES
-(1 , 'alligator ' , NULL , b'1', NULL),
-(2 , 'armadillo ' , NULL , b'1', NULL),
-(3 , 'deer ' , NULL , b'1', NULL),
-(4 , 'fish ' , NULL , b'1', NULL),
-(5 , 'goose ' , NULL , b'1', NULL),
-(6 , 'kangaroo ' , NULL , b'1', NULL),
-(7 , 'monkey ' , NULL , b'1', NULL),
-(8 , 'Dog' , NULL , b'1', NULL),
-(9 , 'Foal' , NULL , b'1', NULL);
+(1 , 'cat_b ' , NULL , b'1','cat_adult'),
+(2 , 'cow_b  ' , NULL , b'1', 'cow_adult'),
+(3 , 'dog_a  ' , NULL , b'1',  'dog_adult'),
+(4 , 'fish_a  ' , NULL , b'1', 'duck_adult'),
+(5 , 'duck_a  ' , NULL , b'1','elephent_adult'),
+(6 , 'goat_a  ' , NULL , b'1', 'goat_adult'),
+(7 , 'horse_a  ' , NULL , b'1', 'horse_adult'),
+(8 , 'pig_a ' , NULL , b'1', 'pig_adult'),
+(9 , 'seal_a ' , NULL , b'1', 'seal_adult');
