@@ -1,18 +1,15 @@
 @extends('layouts.app')
 
-
-
 @section('content')
-    <div class=" grid grid-cols-1 md:grid-cols-3">
-
-        <!-- Table here -->
+<div class="flex items-center justify-center">
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6 p-10 rounded-2xl">
         @foreach ($animal as $a)
-            <div class="flex flex-col">
-                <a>
-                    <img src="./assets/animalcards/{{ $a->NOTE }}" alt="logo {{$a->Id}}" class="w-40 h-40 m-2 rounded-lg border-dotted border-4">
-                </a>
+            <div class="flex justify-center items-center rounded-xl ">
+                <img src="{{ asset('assets/animalcards/' . $a->NOTE) }}" 
+                     alt="Animal {{ $a->Id }}" 
+                     class="object-fit w-40 h-40 md:w-48 md:h-48 border-4 border-dotted rounded-1">
             </div>
         @endforeach
     </div>
-    
+</div>
 @endsection
