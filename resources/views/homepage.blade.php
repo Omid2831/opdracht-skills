@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="flex items-center justify-center">
+<div class="flex items-center justify-end">
     <div class="grid grid-cols-2 md:grid-cols-3 gap-6 p-10 rounded-2xl">
         @foreach ($animal as $a)
             <div class="flex justify-center items-center rounded-xl ">
