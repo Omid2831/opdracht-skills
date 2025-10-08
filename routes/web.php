@@ -3,7 +3,4 @@
 use App\Http\Controllers\AnimalController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/',[AnimalController::class,  'index'])->name('homepage');
-
-
-
+Route::get('/', [AnimalController::class,  'index'])->name('homepage');
