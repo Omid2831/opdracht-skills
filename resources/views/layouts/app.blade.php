@@ -26,6 +26,7 @@
     </main>
 
 
+@stack('scripts')
 
    
 </body>
