@@ -17,10 +17,10 @@ class AnimalController extends Controller
      */
     public function index()
     {
-       $animal = $this->animalModel->getAllAnimals;
+       $animal = animalModel::getAllAnimals();
 
        $data = [
-        't' => 'Website',
+        't' => 'Website data are going to be here ',
         'Messages' => null,
         'animal' => $animal
 
