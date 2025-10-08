@@ -21,7 +21,9 @@ class AnimalController extends Controller
 
        $data = [
         't' => 'Website',
-        'Messages' => null
+        'Messages' => null,
+        'animal' => $animal
+
        ];
 
        return view('homepage', $data);
