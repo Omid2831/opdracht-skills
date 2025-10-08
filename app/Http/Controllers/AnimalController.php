@@ -17,7 +17,7 @@ class AnimalController extends Controller
      */
     public function index()
     {
-        $animal = $this->animalModel::getAllAnimals();
+        $animal = animalModel::getAllAnimals();
 
         return view('homepage', [
             't' => 'Website data are going to be here ',
