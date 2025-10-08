@@ -141,3 +141,21 @@
         @apply bg-background text-foreground;
     }
 }
+
+ /* Styles for card flip animation */
+#deckInner {
+            transform-style: preserve-3d;
+            transition: transform 600ms;
+        }
+
+        #deckInner.flipped {
+            transform: rotateY(180deg);
+        }
+
+        #deckBack,
+        #deckFront {
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
