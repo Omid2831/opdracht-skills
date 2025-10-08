@@ -12,7 +12,7 @@ SELECT
 FROM
     `Baby-Animal` as BA
 WHERE
-    BA.Isactief = 1;
+    BA.IsActive = 1;
 
 END $$
 
