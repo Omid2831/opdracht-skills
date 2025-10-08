@@ -34,26 +34,26 @@ CREATE TABLE IF NOT EXISTS `Adult-Animal`(
 -- INSERT THE DATA FOR THE TABLE BABY ANIMAL
 INSERT INTO `Baby-Animal`(Id , Name , Description , IsActive , NOTE )
 VALUES
-(1 , 'cat_b' , NULL , b'1', 'cat_baby'),
-(2 , 'cow_b' , NULL , b'1', 'cow_baby'),
-(3 , 'dog_b' , NULL , b'1', 'dog_baby'),
-(4 , 'duck_b' , NULL , b'1', 'duck_baby'),
-(5 , 'elephent_b' , NULL , b'1', 'elephent_baby'),
-(6 , 'goat_b' , NULL , b'1', 'goat_baby'),
-(7 , 'horse_b' , NULL , b'1', 'horse_baby'),
-(8 , 'pig_b' , NULL , b'1','pig_baby'),
-(9 , 'seal_b' , NULL , b'1', 'seal_baby');
+(1 , 'cat_b' , NULL , b'1', 'cat_baby.png'),
+(2 , 'cow_b' , NULL , b'1', 'cow_baby..png'),
+(3 , 'dog_b' , NULL , b'1', 'dog_baby.png'),
+(4 , 'duck_b' , NULL , b'1', 'duck_baby.png'),
+(5 , 'elephent_b' , NULL , b'1', 'elephent_baby.png'),
+(6 , 'goat_b' , NULL , b'1', 'goat_baby.png'),
+(7 , 'horse_b' , NULL , b'1', 'horse_baby.png'),
+(8 , 'pig_b' , NULL , b'1','pig_baby.png'),
+(9 , 'seal_b' , NULL , b'1', 'seal_baby.png');
 
 
 -- INSERT THE DATA FOR THE TABLE BABY ANIMAL
 INSERT INTO `Adult-Animal`(Id , Name , Description , IsActive , NOTE )
 VALUES
-(1 , 'cat_b ' , NULL , b'1','cat_adult'),
-(2 , 'cow_b  ' , NULL , b'1', 'cow_adult'),
-(3 , 'dog_a  ' , NULL , b'1',  'dog_adult'),
-(4 , 'fish_a  ' , NULL , b'1', 'duck_adult'),
+(1 , 'cat_b ' , NULL , b'1','cat_adult.png'),
+(2 , 'cow_b  ' , NULL , b'1', 'cow_adult.png'),
+(3 , 'dog_a  ' , NULL , b'1',  'dog_adult.png'),
+(4 , 'fish_a  ' , NULL , b'1', 'duck_adult.png'),
 (5 , 'duck_a  ' , NULL , b'1','elephent_adult'),
-(6 , 'goat_a  ' , NULL , b'1', 'goat_adult'),
-(7 , 'horse_a  ' , NULL , b'1', 'horse_adult'),
-(8 , 'pig_a ' , NULL , b'1', 'pig_adult'),
-(9 , 'seal_a ' , NULL , b'1', 'seal_adult');
+(6 , 'goat_a  ' , NULL , b'1', 'goat_adult.png'),
+(7 , 'horse_a  ' , NULL , b'1', 'horse_adult.png'),
+(8 , 'pig_a ' , NULL , b'1', 'pig_adult.png'),
+(9 , 'seal_a ' , NULL , b'1', 'seal_adult.png');
