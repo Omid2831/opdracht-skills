@@ -15,7 +15,9 @@
     @stack('styles')
 </head>
 
-<body class="bg-[url(/assets/backside.jpg)] ">
+<body style="background-image: url('/assets/bg-pattern-tile.jpg'); background-repeat: repeat;">
+
+
 
 
     <!-- Main Content -->
