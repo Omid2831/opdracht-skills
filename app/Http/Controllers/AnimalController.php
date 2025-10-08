@@ -7,12 +7,24 @@ use Illuminate\Http\Request;
 
 class AnimalController extends Controller
 {
+    private $animalModel;
+    public function __construct()
+    {
+        $this->animalModel = new AnimalModel();
+    }
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        //
+       $animal = $this->animalModel->getAllAnimals;
+
+       $data = [
+        't' => 'Website',
+        'Messages' => null
+       ];
+
+       return view('homepage', $data);
     }
 
     /**
