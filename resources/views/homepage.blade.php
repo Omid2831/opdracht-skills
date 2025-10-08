@@ -9,7 +9,7 @@
         @foreach ($animal as $a)
             <div class="flex flex-col">
                 <a>
-                    <img src="{{ './assets/animalcards/$a->NOTE' }}" alt="logo {{$a->Id}}">
+                    <img src="{{ './assets/animalcards/$a->NOTE'}}" alt="logo {{$a->Id}}">
                 </a>
             </div>
         @endforeach
