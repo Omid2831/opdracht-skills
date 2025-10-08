@@ -9,6 +9,8 @@ BEGIN
 SELECT
     BA.Id
    ,BA.Name
+   ,BA.NOTE
+   
 FROM
     `Baby-Animal` as BA
 WHERE
