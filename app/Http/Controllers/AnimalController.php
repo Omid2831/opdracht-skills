@@ -17,15 +17,13 @@ class AnimalController extends Controller
      */
     public function index()
     {
-       $animal = animalModel::getAllAnimals();
+        $animal = $this->animalModel::getAllAnimals();
 
-
-       return view('homepage', [
-        't' => 'Website data are going to be here ',
-        'Messages' => null,
-        'animal' => $animal
-
-       ]);
+        return view('homepage', [
+            't' => 'Website data are going to be here ',
+            'Messages' => null,
+            'animal' => $animal
+        ]);
     }
 
     /**

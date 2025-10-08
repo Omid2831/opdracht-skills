@@ -21,7 +21,9 @@
 
 
     <!-- Main Content -->
-    <main class="pt-28 md:pt-32">
+    <main class=" pt-28 md:pt-32">
+        <!-- card deck -->
+        @include('partials.cards')
         @yield('content')
     </main>
 
