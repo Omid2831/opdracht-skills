@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `Adult-Animal`(
 INSERT INTO `Baby-Animal`(Id , Name , Description , IsActive , NOTE )
 VALUES
 (1 , 'cat_b' , NULL , b'1', 'cat_baby.png'),
-(2 , 'cow_b' , NULL , b'1', 'cow_baby..png'),
+(2 , 'cow_b' , NULL , b'1', 'cow_baby.png'),
 (3 , 'dog_b' , NULL , b'1', 'dog_baby.png'),
 (4 , 'duck_b' , NULL , b'1', 'duck_baby.png'),
 (5 , 'elephent_b' , NULL , b'1', 'elephent_baby.png'),
